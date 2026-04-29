@@ -1,0 +1,204 @@
+ls -l
+cat > archivo1.txt
+ls
+cat archivo1.txt 
+grep -i archivo1.txt archivo3
+grep -i archivo3 archivo1.txt 
+tree
+sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+sudo apt update
+sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+sudo dpkg --configure -a
+sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+tree
+pwd
+touch
+touch archivo1.txt
+touch archivo2.txt
+cat archivo2.txt 
+rm archivo2.txt
+cat archivo2
+mkdir clase5
+cd clase5
+mkdir practica
+ls -l
+cd practica
+ls -l
+touch practica1.txt
+ls -l
+cat practica1.txt
+cp practica1.txt practica2.tx
+exit
+pwd
+tree
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+pwd
+mkdir repogit
+cd repogit
+git clone git@github.com:Gason08/TP_AySO.git
+tree
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release >
+datos_url.txt
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release >
+datos_url.txt
+cat > datos_url.txt
+tree
+grep -i Home_url /etc/os-release >
+datos_url.txt
+grep -i Home_url /etc/os-release > datos_url.txt
+tree
+echo datos_url.txt 
+cat datos_url.txt 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+tree
+git add
+git add .
+git config --global user.email "Gasanfer08@gmail.com"
+git config --global user.name "Gason08"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat cpuinfo
+grep "model name"
+pwd
+cd repogit/
+cd TP_AySO/
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+git add .
+commit -m "feat:añadiendo informacion del cpu"
+git commit -m "feat:añadiendo informacion del cpu"
+git status
+git push
+pwd
+grep "datos_usuarios" /home/osboxes/repogit/TP_AySO >> datos_usuario.txt
+grep "datos_usuarios" /TP_AySO >> datos_usuario.txt
+rm datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "feat:añadiendo informacion del cpu"
+git push
+git pull
+git status
+git pull
+git config pull.rebase false
+git pull
+git status
+cd repogit/
+cd TP_AySO/
+git status
+git commit
+cd repogit/
+cd TP_AySO/
+git status
+git pull
+git commit
+cd repogit/
+cd TP_AySO/
+git merge --abort
+git status
+git pull
+cd repogit/
+cd TP_AySO/
+git status
+git push
+git push --help
+git status
+git merge --abort
+git status
+tree
+git pull
+tree
+rm -r TP_AySO
+cd repogit/
+tree
+rm -r TP_AySO/
+cd repogit/
+tree
+rm -r TP_AySO
+cd repogit/
+tree
+cd TP_AySO/
+rm datos_usuario.txt 
+rm datos_url.txt 
+rm README.md 
+cd ..
+rm TP_AySO/
+git status
+rm TP_AySO/
+rm directory TP_AySO/
+cd TP_AySO/
+git status
+cd ..
+sudo rm TP_AySO/
+pwd
+rm -rf /home/osboxes/repogit/TP_AySO/
+tree
+cd ..
+tree
+mkdir TP_AySO
+cd TP_AySO/
+cd
+mr TP_AySO
+cd repogit/
+git status
+git clone git@github.com:Gason08/TP_AySO.git
+TP_AySO/
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+tree
+git add .
+git config --global user.email "gason08@gmail.com"
+git config --global user.name "Gason08"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat:Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Fermepin Gaston Santiago
+Division: 113
+Turno: Mañana
+EOF
+
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cd
+mkdir -p {Materia1,Materia2}/uni{1..3}
+tree
+history -a
+cd repogit/
+cd TP_AySO/
+history -a
